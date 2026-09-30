@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "line-ext-reader"
+version = "2.0.0+mac.1"
+description = "Pinned read-only fork of line-desktop-mcp 2.0.0 + line-ext-msg 2.0.0 (macOS patch)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+# Exact pins = versions in the audited upstream uv.lock. Never use @latest.
+dependencies = [
+  "fastmcp==4.0.3",
+  "playwright==1.62.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+line-ext-reader = "line_desktop_mcp.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/line_ext_msg", "src/line_desktop_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
