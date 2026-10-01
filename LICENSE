@@ -2,9 +2,10 @@ MIT License
 
 Copyright (c) 2026 chutayuadhi-ctrl (macOS modifications)
 
-This project vendors code from line-desktop-mcp and line_ext_msg, which are
-Copyright (c) 2026 ITC6910120 (MIT). Their original notices are kept in
-vendor-licenses/ and must be retained when redistributing.
+This project vendors code from line-desktop-mcp (Copyright (c) 2026
+line-desktop-mcp contributors, MIT) and line_ext_msg (Copyright (c) 2026
+ITC6910120, MIT). Their original notices are kept in vendor-licenses/ and
+must be retained when redistributing.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -13,6 +13,8 @@ Tools: `line_status`, `list_rooms`, `get_messages`, `unread_digest`, `search_mes
 Pinned fork of [`line-desktop-mcp`](https://github.com/onlygummy/line-desktop-mcp) 2.0.0 (commit `a1af60b6f2376a8c39bb93538ab9fc134f305f47`)
 and `line_ext_msg` 2.0.0 (PyPI), both by onlygummy / ITC6910120, MIT. Licenses are in `vendor-licenses/`; keep those MIT copyright notices when redistributing.
 
+License: MIT, see [LICENSE](LICENSE) (macOS modifications; upstream notices retained).
+
 Changes from upstream (details in [VENDOR.md](VENDOR.md)):
 - macOS patch: Chrome path, POSIX process handling, macOS profile/session dirs, font.
 - Trimmed to 5 read-only tools (removed `unread_full`, `probe_session`, `clear_session`, the disk-writing CLI, and HTTP mode).
