@@ -1,5 +1,7 @@
 # line-ext-reader
 
+**English** | [ไทย](README.th.md)
+
 > **WARNING - read before use**
 > - Automating LINE may violate LINE's Terms of Use. Check them yourself; your account could be restricted or banned. Use at your own risk.
 > - **Opening a chat room counts as reading it.** `get_messages(room=...)` and `search_messages` open the room in LINE: unread badges clear and a read receipt may be sent to the sender. (`unread_digest` and `list_rooms` do not open rooms.)
@@ -41,5 +43,5 @@ Compare `get_messages(room="Room A", date="YYYY-MM-DD", limit=50)` row by row (t
 
 Env vars: `LINE_EXT_MSG_PROFILE`, `LINE_EXT_MSG_PORT` (9223), `LINE_EXT_MSG_HEADLESS=0` (visible window), `LINE_DESKTOP_MCP_LOG=INFO`.
 
-## ไทยสั้นๆ
-ตัวอ่านแชท LINE แบบอ่านอย่างเดียวผ่านส่วนขยาย Chrome ทางการ · การเปิดห้องแชทถือว่าอ่านแล้ว (อาจส่ง read receipt) · อาจขัดข้อตกลงการใช้งาน LINE เสี่ยงบัญชีถูกจำกัด ใช้บนความรับผิดชอบของตนเอง
+## ไทย
+อ่านฉบับเต็มภาษาไทยที่ [README.th.md](README.th.md)
